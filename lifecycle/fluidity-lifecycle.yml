@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.fluidity.money/docs/fundamentals/roadmap
+status_page: https://status.fluidity.money
+roadmap:
+  url: https://docs.fluidity.money/docs/fundamentals/roadmap
+  sub_roadmaps:
+  - https://docs.fluidity.money/docs/fundamentals/roadmap/product-roadmap
+  - https://docs.fluidity.money/docs/fundamentals/roadmap/decentralisation-roadmap
+sunset:
+  date: '2026-04-01'
+  note: >-
+    Fluidity Labs sunsetted active development of the Fluidity protocol on
+    2026-04-01, with the team focusing on the Superposition ecosystem
+    (superposition.so). The fluidity-app monorepo is archived. Documentation,
+    status page, and on-chain contracts remain published.
+  successor: https://superposition.so
+versioning:
+  scheme: contract-addresses
+  note: >-
+    Fluid Assets are versioned by deployed contract/program addresses per chain
+    (Arbitrum, Solana, Sui, Superposition devnet), documented under
+    https://docs.fluidity.money/docs/addresses rather than an HTTP API version.
+deprecation:
+  policy_url: null
+  sunset_header: false
+deprecated_operations: []

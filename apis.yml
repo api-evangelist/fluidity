@@ -1,22 +1,62 @@
 aid: fluidity
 name: Fluidity
-description: 'Fluidity is a company surfaced as a portfolio company of multicoin-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Fluidity Money is a decentralized finance (DeFi) protocol that turns idle
+  crypto into "Fluid Assets" (fAssets) — ERC-20-compatible wrapped tokens on
+  Ethereum/Arbitrum and SPL tokens on Solana that pay instant, probabilistic
+  rewards every time they are transferred (the Transfer Reward Function). Yield
+  is sourced from lending protocols such as Compound and AAVE on Ethereum and
+  Solend on Solana, and distributed through "utility mining." Fluidity exposes a
+  public GraphQL API over its webapp and landing-page data, publishes EVM ABIs
+  and Solana program/account structures for on-chain integration, and is
+  governed by the $FLY token. Fluidity Labs sunsetted active protocol
+  development on 2026-04-01 to focus on the Superposition ecosystem; docs,
+  status page, and on-chain contracts remain live.
 url: https://raw.githubusercontent.com/api-evangelist/fluidity/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://docs.fluidity.money/docs/partnerships-collaboration/partnerships/brand-assets
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: sunset
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Crypto Web3
-apis: []
+- DeFi
+- GraphQL
+- Ethereum
+- Solana
+- Blockchain
+- Tokenization
+- Rewards
+apis:
+- name: Fluidity GraphQL API
+  description: >-
+    Public GraphQL endpoint exposing Fluidity's on-chain and webapp data —
+    transactions, rewards, prize-pool and Fluid Asset metrics across Arbitrum,
+    Solana, Sui, and the Superposition devnet.
+  humanURL: https://docs.fluidity.money/docs/developers/graphql
+  properties:
+  - type: GraphQL
+    url: https://docs.fluidity.money/docs/developers/graphql
+  - type: APIReference
+    url: https://docs.fluidity.money/docs/developers/graphql
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +65,42 @@ maintainers:
 common:
 - type: Website
   url: https://fluidity.money
+- type: DeveloperPortal
+  url: https://docs.fluidity.money/docs/developers
+- type: Documentation
+  url: https://docs.fluidity.money/
+- type: APIReference
+  url: https://docs.fluidity.money/docs/developers/graphql
+- type: GettingStarted
+  url: https://docs.fluidity.money/docs/learning-and-getting-started
+- type: Roadmap
+  url: https://docs.fluidity.money/docs/fundamentals/roadmap
+- type: Blog
+  url: https://blog.fluidity.money/
+- type: StatusPage
+  url: https://status.fluidity.money
+- type: Support
+  url: https://discord.gg/CNvpJk4HpC
+- type: GitHubOrganization
+  url: https://github.com/fluidity-money
+- type: Whitepapers
+  url: https://docs.fluidity.money/docs/developers/whitepaper-source-code
+- type: LLMsTxt
+  url: llms/fluidity-llms.txt
+- type: Packages
+  url: packages/fluidity-packages.yml
+- type: SDKs
+  url: packages/fluidity-packages.yml
+- type: Lifecycle
+  url: lifecycle/fluidity-lifecycle.yml
+- type: DomainSecurity
+  url: security/fluidity-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/fluidity-vulnerability-disclosure.yml
+- type: Security
+  url: https://docs.fluidity.money/docs/security
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

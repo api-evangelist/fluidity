@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/@fluidity-money/snitch-client
+packages:
+- language: javascript
+  registry: npm
+  name: "@fluidity-money/snitch-client"
+  url: https://www.npmjs.com/package/@fluidity-money/snitch-client
+  install: npm install @fluidity-money/snitch-client
+  version: 0.4.0
+  description: Client side utilities for reporting to the Superposition Snitch graph.
+  official: true
+notes: >-
+  Fluidity Labs' primary codebase is the Go/TypeScript monorepo at
+  github.com/fluidity-money/fluidity-app (archived). The org publishes the
+  first-party npm package above under the @fluidity-money scope. No first-party
+  PyPI, Maven, NuGet, Go module, RubyGems, Packagist, or crates.io client
+  libraries were found; on-chain integration is via published EVM ABIs and
+  Solana program addresses rather than distributed SDKs.
